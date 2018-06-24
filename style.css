@@ -1,0 +1,33 @@
+body {
+	color: red;
+}
+
+body {
+	color: green;
+	font-family: Arial, sans-serif;
+	line-height: 1.2;
+	font-size: 18px;
+}
+
+.wrapper {
+	max-width: 900px;
+	margin: auto;
+}
+
+.wrapper h1 {
+	color: green;
+}
+
+.list > li {
+	color: grey;  /*only child*/
+}
+
+.list ~ p {
+	color: orange;
+}
+
+h2 + ul {
+	font-style: italic;
+	color: red;
+}
+
